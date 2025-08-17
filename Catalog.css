@@ -1,0 +1,35 @@
+ .catalog-container {
+  max-width: 800px;
+  margin: 30px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  font-family: Arial;
+}
+
+.selectors {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 20px;
+}
+
+.selectors select, .selectors button {
+  padding: 8px;
+  font-size: 16px;
+}
+
+.student-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.student-table th, .student-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
